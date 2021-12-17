@@ -1,0 +1,35 @@
+ion-content{
+    --ion-background-color:white;
+}
+
+.logoDest2{
+    align-items: center;
+    position: absolute;
+    transform: rotate(-40deg);
+    margin-top: 130px;
+    margin-left: -20px;
+
+}
+
+.logoDest1{
+    align-items: center;
+    position: absolute;
+    transform: rotate(10deg);
+    margin-left: 35px;
+    margin-top: 130px;
+}
+
+.rayo{
+    align-items: center;
+    transform: rotate(-28deg);
+    margin-left: 50px;
+    margin-top: 45px;
+    height: 200px;
+    width: 400px;
+    z-index: 5px;
+    
+}
+
+.title{
+    color: white;
+}

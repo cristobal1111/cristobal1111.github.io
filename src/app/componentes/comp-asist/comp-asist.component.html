@@ -1,0 +1,16 @@
+<ion-content>
+  <div class="cuerpo">
+    <ion-card class="example-card">
+      <ion-card-header>
+        <ion-card-title style="color: black;">Asignaturas</ion-card-title>
+      </ion-card-header>
+  
+      <ion-card-content>
+        <ion-list style="color: black;" *ngFor="let asignatura of asignaturas">
+          <ion-item style="color: rgb(8, 169, 233);">{{asignatura.nombre}}</ion-item>
+          <ion-item>Docente:{{asignatura.docente}}</ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

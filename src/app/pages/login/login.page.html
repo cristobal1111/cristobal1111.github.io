@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="title">RegistrAPP</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <ion-card class="example-card">
+      <mat-card-header>
+      </mat-card-header>
+      <img mat-card-image #logo src="/assets/img/logo.png" class="imginicio" alt="">
+    </ion-card>
+  </div>
+
+  <ion-card class="example-card1">
+    <mat-card-content>
+      <div>
+          <mat-form-field expand="full" class="example-full-width" appearance="fill">
+            <mat-label>Usuario</mat-label>
+            <input matInput type="text" [(ngModel)]="user">
+          </mat-form-field>
+
+          <mat-form-field  expand="full" class="example-full-width" appearance="fill">
+            <mat-label>Contraseña</mat-label>
+            <input matInput [type]="hide ? 'password' : 'text'"[(ngModel)]="password">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+          </mat-form-field>
+      </div>
+    </mat-card-content>
+  </ion-card>
+
+  <ion-card>
+    <button class="iniciar" color="accent" mat-stroked-button (click)="iniciar()">Iniciar Sesi&oacute;n</button>
+    <button class="iniciar" color="accent" mat-stroked-button (click)="guardar()">Registrarse</button>
+  </ion-card>
+
+
+
+  <h4 class="recuperar" (click)="Rpassword()"><u>Recuperar Contraseña</u></h4>
+</ion-content>
+  

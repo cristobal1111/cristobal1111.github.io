@@ -1,0 +1,44 @@
+{
+  "asignaturas": [
+    {
+      "id": 1,
+      "ano": "2021",
+      "nombre": "Programación web",
+      "docente": "Cristiano Ronaldo"
+
+    },
+
+    {
+      "id": 2,
+      "ano": "2021",
+      "nombre": "Inteligencia de Negocios",
+      "docente": "Dora la exploradora"
+
+    },
+
+    {
+      "id": 3,
+      "ano": "2021",
+      "nombre": "Gestión de Riesgos",
+      "docente": "Nemo"
+
+    },
+
+    {
+      "id": 4,
+      "ano": "2021",
+      "nombre": "Ingles Avanzado II",
+      "docente": "Messi"
+
+    },
+
+    {
+      "id": 5,
+      "ano": "2021",
+      "nombre": "Big Data",
+      "docente": "tilin"
+
+    }
+  ]
+
+}

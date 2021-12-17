@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="title">RegistrAPP</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <ion-card class="example-card">
+      <mat-card-header>
+        <h3 class="titulo">Ingrese su usuario para recuperar la contraseña</h3>
+        <img mat-card-image #recuperarI src="/assets/img/recuperar.png" class="recuperarI" alt="">
+      </mat-card-header>
+    </ion-card>
+  </div>
+
+  <ion-card class="example-card1">
+    <mat-card-content>
+      <div>
+        <mat-form-field expand="full" class="example-full-width" appearance="fill">
+          <mat-label>Usuario</mat-label>
+          <input matInput type="text">
+        </mat-form-field>
+      </div>
+    </mat-card-content>
+  </ion-card>
+
+  <ion-card>
+    <button class="recuperar" color="accent" mat-stroked-button>Recuperar</button>
+  </ion-card>
+
+  <div>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button tab="volver" (click)="volver()">
+          <ion-icon name="exit-outline"></ion-icon>
+          <ion-label>Volver</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </div>
+</ion-content>

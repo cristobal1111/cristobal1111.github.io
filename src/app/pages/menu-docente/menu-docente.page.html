@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="title">Bienvenido {{user}}</ion-title>
+    <ion-segment (ionChange)="segmentChanged($event)" class="segment">
+      <ion-segment-button value="qr">
+        <ion-icon name="qr-code-outline"></ion-icon>
+      </ion-segment-button>
+
+      <ion-segment-button value="asist">
+        <ion-icon name="book-outline"></ion-icon>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button tab="CerrarS" (click)="cerrarS()">
+          <ion-icon name="exit-outline"></ion-icon>
+          <ion-label>Cerrar sesi&oacute;n</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </div>
+</ion-content>

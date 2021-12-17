@@ -1,0 +1,49 @@
+ion-content{
+  --ion-background-color:white;
+}
+
+
+.example-card {
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.774);
+}
+
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.example-full-width{
+  width: 400px;
+
+}
+
+
+.iniciar{
+  width:400px;
+}
+
+.iniciar{
+  background-color: #3880ff;
+
+}
+
+.title{
+  text-align: center;
+  align-items: center;
+}
+
+.imginicio{
+  margin-top: 50px;
+}
+
+.example-card1{
+  max-width: 400px;
+  background: rgba(189, 189, 189, 0.774);
+}
+
+.recuperar{
+  color: #3880ff;
+  text-align: center;
+}
